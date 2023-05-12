@@ -20,8 +20,6 @@
   └── pascal_voc_classes.json: pascal_voc标签文件
 ```
 
-## 预训练权重（放入backbone文件夹中）
- 
 ## 数据集，本例程使用的是PASCAL VOC2007数据集
 * 使用ResNet50+FPN以及迁移学习在VOC2007数据集上得到的权重
 
@@ -30,6 +28,8 @@
 * 确保提前下载好对应预训练模型权重
 * 直接使用train_resnet50_fpn.py训练脚本
 
-## Model Path(放入save_weights文件夹中)
+## 注意
+预训练权重（放入backbone文件夹中）
+Model Path(放入save_weights文件夹中)
 
 
